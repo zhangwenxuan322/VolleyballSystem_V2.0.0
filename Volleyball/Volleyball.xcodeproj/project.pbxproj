@@ -1,0 +1,1001 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4904EBDF209DE2C20020A0D4 /* YCPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4904EBDD209DE2C20020A0D4 /* YCPickerView.m */; };
+		490C3B5220ADA83A002AF73E /* HomePageVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 490C3B5120ADA83A002AF73E /* HomePageVC.m */; };
+		490C3B5520ADAFFD002AF73E /* HistoryVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 490C3B5420ADAFFD002AF73E /* HistoryVC.m */; };
+		490C3F3D20B3D50F0026BE2C /* RealTimeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 490C3F3C20B3D50F0026BE2C /* RealTimeVC.m */; };
+		490C3F4020B3DB650026BE2C /* SettingVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 490C3F3F20B3DB650026BE2C /* SettingVC.m */; };
+		490E320E20AAF2720086C902 /* TerminalChangVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 490E320D20AAF2720086C902 /* TerminalChangVC.m */; };
+		490E321120ABF4420086C902 /* ChangePlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 490E321020ABF4420086C902 /* ChangePlayerView.m */; };
+		491E045B205FE4F900B40FDD /* Players.m in Sources */ = {isa = PBXBuildFile; fileRef = 491E045A205FE4F900B40FDD /* Players.m */; };
+		4921AC43209B35B1001A0444 /* IQTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4921AC20209B35B1001A0444 /* IQTextView.m */; };
+		4921AC44209B35B1001A0444 /* IQToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 4921AC24209B35B1001A0444 /* IQToolbar.m */; };
+		4921AC45209B35B1001A0444 /* IQTitleBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 4921AC26209B35B1001A0444 /* IQTitleBarButtonItem.m */; };
+		4921AC46209B35B1001A0444 /* IQBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 4921AC27209B35B1001A0444 /* IQBarButtonItem.m */; };
+		4921AC47209B35B1001A0444 /* IQUIView+IQKeyboardToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 4921AC28209B35B1001A0444 /* IQUIView+IQKeyboardToolbar.m */; };
+		4921AC48209B35B1001A0444 /* IQPreviousNextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4921AC29209B35B1001A0444 /* IQPreviousNextView.m */; };
+		4921AC49209B35B1001A0444 /* IQKeyboardManager.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 4921AC31209B35B1001A0444 /* IQKeyboardManager.bundle */; };
+		4921AC4A209B35B1001A0444 /* IQKeyboardManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4921AC34209B35B1001A0444 /* IQKeyboardManager.m */; };
+		4921AC4B209B35B1001A0444 /* IQNSArray+Sort.m in Sources */ = {isa = PBXBuildFile; fileRef = 4921AC36209B35B1001A0444 /* IQNSArray+Sort.m */; };
+		4921AC4C209B35B1001A0444 /* IQUIWindow+Hierarchy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4921AC37209B35B1001A0444 /* IQUIWindow+Hierarchy.m */; };
+		4921AC4D209B35B1001A0444 /* IQUITextFieldView+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 4921AC39209B35B1001A0444 /* IQUITextFieldView+Additions.m */; };
+		4921AC4E209B35B1001A0444 /* IQUIScrollView+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 4921AC3A209B35B1001A0444 /* IQUIScrollView+Additions.m */; };
+		4921AC4F209B35B1001A0444 /* IQUIView+Hierarchy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4921AC3B209B35B1001A0444 /* IQUIView+Hierarchy.m */; };
+		4921AC50209B35B1001A0444 /* IQUIViewController+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 4921AC40209B35B1001A0444 /* IQUIViewController+Additions.m */; };
+		4921AC51209B35B1001A0444 /* IQKeyboardReturnKeyHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 4921AC42209B35B1001A0444 /* IQKeyboardReturnKeyHandler.m */; };
+		494CFB4C207B9B0D0092E5FA /* DoneButtonsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 494CFB4B207B9B0D0092E5FA /* DoneButtonsView.m */; };
+		495D2EED2076037B004685BF /* ChooseButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 495D2EEC2076037B004685BF /* ChooseButton.m */; };
+		4960918020B2F14F00982EE8 /* HistoryDetailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4960917F20B2F14F00982EE8 /* HistoryDetailVC.m */; };
+		496778EA2091CF280055FDCF /* D3View.m in Sources */ = {isa = PBXBuildFile; fileRef = 496778E82091CF280055FDCF /* D3View.m */; };
+		4970A94A209888B3007E95FC /* OurPlayersSettingVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4970A949209888B3007E95FC /* OurPlayersSettingVC.m */; };
+		4971A19020AD48FE003EA3EC /* DetailScoreVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4971A18F20AD48FE003EA3EC /* DetailScoreVC.m */; };
+		4982F939208DFDCB00522BBB /* ProcessTable.m in Sources */ = {isa = PBXBuildFile; fileRef = 4982F938208DFDCB00522BBB /* ProcessTable.m */; };
+		498D6831205A6578000491E7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 498D6830205A6578000491E7 /* AppDelegate.m */; };
+		498D6834205A6578000491E7 /* ScoringView.m in Sources */ = {isa = PBXBuildFile; fileRef = 498D6833205A6578000491E7 /* ScoringView.m */; };
+		498D6837205A6578000491E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 498D6835205A6578000491E7 /* Main.storyboard */; };
+		498D6839205A6578000491E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 498D6838205A6578000491E7 /* Assets.xcassets */; };
+		498D683C205A6578000491E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 498D683A205A6578000491E7 /* LaunchScreen.storyboard */; };
+		498D683F205A6578000491E7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 498D683E205A6578000491E7 /* main.m */; };
+		498D6849205A6578000491E7 /* VolleyballTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 498D6848205A6578000491E7 /* VolleyballTests.m */; };
+		498D6854205A6578000491E7 /* VolleyballUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 498D6853205A6578000491E7 /* VolleyballUITests.m */; };
+		49CC103A2062853E00ADA5A4 /* Court.m in Sources */ = {isa = PBXBuildFile; fileRef = 49CC10392062853E00ADA5A4 /* Court.m */; };
+		49D6F72C2099951E002B3AF2 /* NumberPadDeleteDown.png in Resources */ = {isa = PBXBuildFile; fileRef = 49D6F7222099951D002B3AF2 /* NumberPadDeleteDown.png */; };
+		49D6F72D2099951E002B3AF2 /* ZZNumberField.m in Sources */ = {isa = PBXBuildFile; fileRef = 49D6F7232099951D002B3AF2 /* ZZNumberField.m */; };
+		49D6F72E2099951E002B3AF2 /* NumberPadDeleteUp.png in Resources */ = {isa = PBXBuildFile; fileRef = 49D6F7242099951D002B3AF2 /* NumberPadDeleteUp.png */; };
+		49D6F72F2099951E002B3AF2 /* NumberPadButtonDown.png in Resources */ = {isa = PBXBuildFile; fileRef = 49D6F7252099951D002B3AF2 /* NumberPadButtonDown.png */; };
+		49D6F7302099951E002B3AF2 /* NumberPadDeleteDown@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 49D6F7262099951D002B3AF2 /* NumberPadDeleteDown@2x.png */; };
+		49D6F7312099951E002B3AF2 /* NumberPadDeleteUp@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 49D6F7282099951D002B3AF2 /* NumberPadDeleteUp@2x.png */; };
+		49D6F7322099951E002B3AF2 /* NumberPadButtonUp.png in Resources */ = {isa = PBXBuildFile; fileRef = 49D6F7292099951D002B3AF2 /* NumberPadButtonUp.png */; };
+		49D6F7332099951E002B3AF2 /* NumberPadButtonUp@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 49D6F72A2099951D002B3AF2 /* NumberPadButtonUp@2x.png */; };
+		49D6F7342099951E002B3AF2 /* NumberPadButtonDown@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 49D6F72B2099951D002B3AF2 /* NumberPadButtonDown@2x.png */; };
+		49D6F737209997B6002B3AF2 /* PlayersSetting.m in Sources */ = {isa = PBXBuildFile; fileRef = 49D6F736209997B6002B3AF2 /* PlayersSetting.m */; };
+		49EAB61B20A71F2000DBA470 /* positionLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 49EAB61A20A71F2000DBA470 /* positionLabel.m */; };
+		49F5B2692096E4C50031C984 /* PlayerModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 49F5B2682096E4C50031C984 /* PlayerModel.m */; };
+		49F5B26F2096EC9C0031C984 /* DuiLoss.m in Sources */ = {isa = PBXBuildFile; fileRef = 49F5B26E2096EC9C0031C984 /* DuiLoss.m */; };
+		9852EF5933510BD5E03FDA51 /* libPods-Volleyball.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 48902D1CBAB17B026BBB3EC5 /* libPods-Volleyball.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		498D6845205A6578000491E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 498D6824205A6578000491E7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 498D682B205A6578000491E7;
+			remoteInfo = Volleyball;
+		};
+		498D6850205A6578000491E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 498D6824205A6578000491E7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 498D682B205A6578000491E7;
+			remoteInfo = Volleyball;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		48902D1CBAB17B026BBB3EC5 /* libPods-Volleyball.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Volleyball.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4904EBDD209DE2C20020A0D4 /* YCPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YCPickerView.m; sourceTree = "<group>"; };
+		4904EBDE209DE2C20020A0D4 /* YCPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YCPickerView.h; sourceTree = "<group>"; };
+		490C3B5020ADA83A002AF73E /* HomePageVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomePageVC.h; sourceTree = "<group>"; };
+		490C3B5120ADA83A002AF73E /* HomePageVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomePageVC.m; sourceTree = "<group>"; };
+		490C3B5320ADAFFD002AF73E /* HistoryVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HistoryVC.h; sourceTree = "<group>"; };
+		490C3B5420ADAFFD002AF73E /* HistoryVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HistoryVC.m; sourceTree = "<group>"; };
+		490C3F3B20B3D50F0026BE2C /* RealTimeVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RealTimeVC.h; sourceTree = "<group>"; };
+		490C3F3C20B3D50F0026BE2C /* RealTimeVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RealTimeVC.m; sourceTree = "<group>"; };
+		490C3F3E20B3DB650026BE2C /* SettingVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SettingVC.h; sourceTree = "<group>"; };
+		490C3F3F20B3DB650026BE2C /* SettingVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SettingVC.m; sourceTree = "<group>"; };
+		490E320C20AAF2720086C902 /* TerminalChangVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TerminalChangVC.h; sourceTree = "<group>"; };
+		490E320D20AAF2720086C902 /* TerminalChangVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TerminalChangVC.m; sourceTree = "<group>"; };
+		490E320F20ABF4420086C902 /* ChangePlayerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChangePlayerView.h; sourceTree = "<group>"; };
+		490E321020ABF4420086C902 /* ChangePlayerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChangePlayerView.m; sourceTree = "<group>"; };
+		491E0459205FE4F900B40FDD /* Players.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Players.h; sourceTree = "<group>"; };
+		491E045A205FE4F900B40FDD /* Players.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Players.m; sourceTree = "<group>"; };
+		4921AC20209B35B1001A0444 /* IQTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQTextView.m; sourceTree = "<group>"; };
+		4921AC21209B35B1001A0444 /* IQTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQTextView.h; sourceTree = "<group>"; };
+		4921AC23209B35B1001A0444 /* IQUIView+IQKeyboardToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IQUIView+IQKeyboardToolbar.h"; sourceTree = "<group>"; };
+		4921AC24209B35B1001A0444 /* IQToolbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQToolbar.m; sourceTree = "<group>"; };
+		4921AC25209B35B1001A0444 /* IQPreviousNextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQPreviousNextView.h; sourceTree = "<group>"; };
+		4921AC26209B35B1001A0444 /* IQTitleBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQTitleBarButtonItem.m; sourceTree = "<group>"; };
+		4921AC27209B35B1001A0444 /* IQBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQBarButtonItem.m; sourceTree = "<group>"; };
+		4921AC28209B35B1001A0444 /* IQUIView+IQKeyboardToolbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IQUIView+IQKeyboardToolbar.m"; sourceTree = "<group>"; };
+		4921AC29209B35B1001A0444 /* IQPreviousNextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQPreviousNextView.m; sourceTree = "<group>"; };
+		4921AC2A209B35B1001A0444 /* IQToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQToolbar.h; sourceTree = "<group>"; };
+		4921AC2B209B35B1001A0444 /* IQBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQBarButtonItem.h; sourceTree = "<group>"; };
+		4921AC2C209B35B1001A0444 /* IQTitleBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQTitleBarButtonItem.h; sourceTree = "<group>"; };
+		4921AC2E209B35B1001A0444 /* IQKeyboardManagerConstantsInternal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQKeyboardManagerConstantsInternal.h; sourceTree = "<group>"; };
+		4921AC2F209B35B1001A0444 /* IQKeyboardManagerConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQKeyboardManagerConstants.h; sourceTree = "<group>"; };
+		4921AC31209B35B1001A0444 /* IQKeyboardManager.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = IQKeyboardManager.bundle; sourceTree = "<group>"; };
+		4921AC32209B35B1001A0444 /* IQKeyboardReturnKeyHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQKeyboardReturnKeyHandler.h; sourceTree = "<group>"; };
+		4921AC33209B35B1001A0444 /* IQKeyboardManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQKeyboardManager.h; sourceTree = "<group>"; };
+		4921AC34209B35B1001A0444 /* IQKeyboardManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQKeyboardManager.m; sourceTree = "<group>"; };
+		4921AC36209B35B1001A0444 /* IQNSArray+Sort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IQNSArray+Sort.m"; sourceTree = "<group>"; };
+		4921AC37209B35B1001A0444 /* IQUIWindow+Hierarchy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IQUIWindow+Hierarchy.m"; sourceTree = "<group>"; };
+		4921AC38209B35B1001A0444 /* IQUIViewController+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IQUIViewController+Additions.h"; sourceTree = "<group>"; };
+		4921AC39209B35B1001A0444 /* IQUITextFieldView+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IQUITextFieldView+Additions.m"; sourceTree = "<group>"; };
+		4921AC3A209B35B1001A0444 /* IQUIScrollView+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IQUIScrollView+Additions.m"; sourceTree = "<group>"; };
+		4921AC3B209B35B1001A0444 /* IQUIView+Hierarchy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IQUIView+Hierarchy.m"; sourceTree = "<group>"; };
+		4921AC3C209B35B1001A0444 /* IQUIWindow+Hierarchy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IQUIWindow+Hierarchy.h"; sourceTree = "<group>"; };
+		4921AC3D209B35B1001A0444 /* IQNSArray+Sort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IQNSArray+Sort.h"; sourceTree = "<group>"; };
+		4921AC3E209B35B1001A0444 /* IQUIScrollView+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IQUIScrollView+Additions.h"; sourceTree = "<group>"; };
+		4921AC3F209B35B1001A0444 /* IQUITextFieldView+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IQUITextFieldView+Additions.h"; sourceTree = "<group>"; };
+		4921AC40209B35B1001A0444 /* IQUIViewController+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IQUIViewController+Additions.m"; sourceTree = "<group>"; };
+		4921AC41209B35B1001A0444 /* IQUIView+Hierarchy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IQUIView+Hierarchy.h"; sourceTree = "<group>"; };
+		4921AC42209B35B1001A0444 /* IQKeyboardReturnKeyHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQKeyboardReturnKeyHandler.m; sourceTree = "<group>"; };
+		494CFB4A207B9B0D0092E5FA /* DoneButtonsView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DoneButtonsView.h; sourceTree = "<group>"; };
+		494CFB4B207B9B0D0092E5FA /* DoneButtonsView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DoneButtonsView.m; sourceTree = "<group>"; };
+		495D2EEB2076037B004685BF /* ChooseButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChooseButton.h; sourceTree = "<group>"; };
+		495D2EEC2076037B004685BF /* ChooseButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChooseButton.m; sourceTree = "<group>"; };
+		4960917E20B2F14F00982EE8 /* HistoryDetailVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HistoryDetailVC.h; sourceTree = "<group>"; };
+		4960917F20B2F14F00982EE8 /* HistoryDetailVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HistoryDetailVC.m; sourceTree = "<group>"; };
+		496778E82091CF280055FDCF /* D3View.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = D3View.m; sourceTree = "<group>"; };
+		496778E92091CF280055FDCF /* D3View.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = D3View.h; sourceTree = "<group>"; };
+		4970A948209888B3007E95FC /* OurPlayersSettingVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OurPlayersSettingVC.h; sourceTree = "<group>"; };
+		4970A949209888B3007E95FC /* OurPlayersSettingVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OurPlayersSettingVC.m; sourceTree = "<group>"; };
+		4971A18E20AD48FE003EA3EC /* DetailScoreVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailScoreVC.h; sourceTree = "<group>"; };
+		4971A18F20AD48FE003EA3EC /* DetailScoreVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailScoreVC.m; sourceTree = "<group>"; };
+		4982F937208DFDCB00522BBB /* ProcessTable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProcessTable.h; sourceTree = "<group>"; };
+		4982F938208DFDCB00522BBB /* ProcessTable.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProcessTable.m; sourceTree = "<group>"; };
+		498D682C205A6578000491E7 /* Volleyball.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Volleyball.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		498D682F205A6578000491E7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		498D6830205A6578000491E7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		498D6832205A6578000491E7 /* ScoringView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ScoringView.h; sourceTree = "<group>"; };
+		498D6833205A6578000491E7 /* ScoringView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScoringView.m; sourceTree = "<group>"; };
+		498D6836205A6578000491E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		498D6838205A6578000491E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		498D683B205A6578000491E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		498D683D205A6578000491E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		498D683E205A6578000491E7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		498D6844205A6578000491E7 /* VolleyballTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VolleyballTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		498D6848205A6578000491E7 /* VolleyballTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VolleyballTests.m; sourceTree = "<group>"; };
+		498D684A205A6578000491E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		498D684F205A6578000491E7 /* VolleyballUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VolleyballUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		498D6853205A6578000491E7 /* VolleyballUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VolleyballUITests.m; sourceTree = "<group>"; };
+		498D6855205A6578000491E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49CC10382062853E00ADA5A4 /* Court.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Court.h; sourceTree = "<group>"; };
+		49CC10392062853E00ADA5A4 /* Court.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Court.m; sourceTree = "<group>"; };
+		49D6F7222099951D002B3AF2 /* NumberPadDeleteDown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NumberPadDeleteDown.png; sourceTree = "<group>"; };
+		49D6F7232099951D002B3AF2 /* ZZNumberField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZNumberField.m; sourceTree = "<group>"; };
+		49D6F7242099951D002B3AF2 /* NumberPadDeleteUp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NumberPadDeleteUp.png; sourceTree = "<group>"; };
+		49D6F7252099951D002B3AF2 /* NumberPadButtonDown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NumberPadButtonDown.png; sourceTree = "<group>"; };
+		49D6F7262099951D002B3AF2 /* NumberPadDeleteDown@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NumberPadDeleteDown@2x.png"; sourceTree = "<group>"; };
+		49D6F7272099951D002B3AF2 /* ZZNumberField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZNumberField.h; sourceTree = "<group>"; };
+		49D6F7282099951D002B3AF2 /* NumberPadDeleteUp@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NumberPadDeleteUp@2x.png"; sourceTree = "<group>"; };
+		49D6F7292099951D002B3AF2 /* NumberPadButtonUp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NumberPadButtonUp.png; sourceTree = "<group>"; };
+		49D6F72A2099951D002B3AF2 /* NumberPadButtonUp@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NumberPadButtonUp@2x.png"; sourceTree = "<group>"; };
+		49D6F72B2099951D002B3AF2 /* NumberPadButtonDown@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NumberPadButtonDown@2x.png"; sourceTree = "<group>"; };
+		49D6F735209997B6002B3AF2 /* PlayersSetting.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlayersSetting.h; sourceTree = "<group>"; };
+		49D6F736209997B6002B3AF2 /* PlayersSetting.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlayersSetting.m; sourceTree = "<group>"; };
+		49EAB61920A71F2000DBA470 /* positionLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = positionLabel.h; sourceTree = "<group>"; };
+		49EAB61A20A71F2000DBA470 /* positionLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = positionLabel.m; sourceTree = "<group>"; };
+		49F5B2672096E4C50031C984 /* PlayerModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlayerModel.h; sourceTree = "<group>"; };
+		49F5B2682096E4C50031C984 /* PlayerModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlayerModel.m; sourceTree = "<group>"; };
+		49F5B26D2096EC9C0031C984 /* DuiLoss.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DuiLoss.h; sourceTree = "<group>"; };
+		49F5B26E2096EC9C0031C984 /* DuiLoss.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DuiLoss.m; sourceTree = "<group>"; };
+		6F818D1312123ADAE897CD5D /* Pods-Volleyball.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Volleyball.release.xcconfig"; path = "Pods/Target Support Files/Pods-Volleyball/Pods-Volleyball.release.xcconfig"; sourceTree = "<group>"; };
+		F0883891A3F2473D63AE4E78 /* Pods-Volleyball.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Volleyball.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Volleyball/Pods-Volleyball.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		498D6829205A6578000491E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9852EF5933510BD5E03FDA51 /* libPods-Volleyball.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		498D6841205A6578000491E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		498D684C205A6578000491E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2604F0F63809EFEAF26E3B17 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F0883891A3F2473D63AE4E78 /* Pods-Volleyball.debug.xcconfig */,
+				6F818D1312123ADAE897CD5D /* Pods-Volleyball.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4904EBDC209DE2930020A0D4 /* thirdParts */ = {
+			isa = PBXGroup;
+			children = (
+				4904EBE0209DE2CB0020A0D4 /* YCPickerView */,
+				49D6F7212099951D002B3AF2 /* ZZNumberField */,
+				4921AC1E209B35B1001A0444 /* IQKeyboardManager */,
+			);
+			path = thirdParts;
+			sourceTree = "<group>";
+		};
+		4904EBE0209DE2CB0020A0D4 /* YCPickerView */ = {
+			isa = PBXGroup;
+			children = (
+				4904EBDE209DE2C20020A0D4 /* YCPickerView.h */,
+				4904EBDD209DE2C20020A0D4 /* YCPickerView.m */,
+			);
+			path = YCPickerView;
+			sourceTree = "<group>";
+		};
+		4904EBE1209DE2E00020A0D4 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				490C3B5020ADA83A002AF73E /* HomePageVC.h */,
+				490C3B5120ADA83A002AF73E /* HomePageVC.m */,
+				490C3B5320ADAFFD002AF73E /* HistoryVC.h */,
+				490C3B5420ADAFFD002AF73E /* HistoryVC.m */,
+				490C3F3E20B3DB650026BE2C /* SettingVC.h */,
+				490C3F3F20B3DB650026BE2C /* SettingVC.m */,
+				4960917E20B2F14F00982EE8 /* HistoryDetailVC.h */,
+				4960917F20B2F14F00982EE8 /* HistoryDetailVC.m */,
+				4970A948209888B3007E95FC /* OurPlayersSettingVC.h */,
+				4970A949209888B3007E95FC /* OurPlayersSettingVC.m */,
+				498D6832205A6578000491E7 /* ScoringView.h */,
+				498D6833205A6578000491E7 /* ScoringView.m */,
+				490E320C20AAF2720086C902 /* TerminalChangVC.h */,
+				490E320D20AAF2720086C902 /* TerminalChangVC.m */,
+				4971A18E20AD48FE003EA3EC /* DetailScoreVC.h */,
+				4971A18F20AD48FE003EA3EC /* DetailScoreVC.m */,
+				490C3F3B20B3D50F0026BE2C /* RealTimeVC.h */,
+				490C3F3C20B3D50F0026BE2C /* RealTimeVC.m */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		4904EBE2209DE3530020A0D4 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				498D682F205A6578000491E7 /* AppDelegate.h */,
+				498D6830205A6578000491E7 /* AppDelegate.m */,
+				498D6835205A6578000491E7 /* Main.storyboard */,
+				498D6838205A6578000491E7 /* Assets.xcassets */,
+				498D683A205A6578000491E7 /* LaunchScreen.storyboard */,
+				498D683E205A6578000491E7 /* main.m */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		4921AC1E209B35B1001A0444 /* IQKeyboardManager */ = {
+			isa = PBXGroup;
+			children = (
+				4921AC1F209B35B1001A0444 /* IQTextView */,
+				4921AC22209B35B1001A0444 /* IQToolbar */,
+				4921AC2D209B35B1001A0444 /* Constants */,
+				4921AC30209B35B1001A0444 /* Resources */,
+				4921AC32209B35B1001A0444 /* IQKeyboardReturnKeyHandler.h */,
+				4921AC33209B35B1001A0444 /* IQKeyboardManager.h */,
+				4921AC34209B35B1001A0444 /* IQKeyboardManager.m */,
+				4921AC35209B35B1001A0444 /* Categories */,
+				4921AC42209B35B1001A0444 /* IQKeyboardReturnKeyHandler.m */,
+			);
+			path = IQKeyboardManager;
+			sourceTree = "<group>";
+		};
+		4921AC1F209B35B1001A0444 /* IQTextView */ = {
+			isa = PBXGroup;
+			children = (
+				4921AC20209B35B1001A0444 /* IQTextView.m */,
+				4921AC21209B35B1001A0444 /* IQTextView.h */,
+			);
+			path = IQTextView;
+			sourceTree = "<group>";
+		};
+		4921AC22209B35B1001A0444 /* IQToolbar */ = {
+			isa = PBXGroup;
+			children = (
+				4921AC23209B35B1001A0444 /* IQUIView+IQKeyboardToolbar.h */,
+				4921AC24209B35B1001A0444 /* IQToolbar.m */,
+				4921AC25209B35B1001A0444 /* IQPreviousNextView.h */,
+				4921AC26209B35B1001A0444 /* IQTitleBarButtonItem.m */,
+				4921AC27209B35B1001A0444 /* IQBarButtonItem.m */,
+				4921AC28209B35B1001A0444 /* IQUIView+IQKeyboardToolbar.m */,
+				4921AC29209B35B1001A0444 /* IQPreviousNextView.m */,
+				4921AC2A209B35B1001A0444 /* IQToolbar.h */,
+				4921AC2B209B35B1001A0444 /* IQBarButtonItem.h */,
+				4921AC2C209B35B1001A0444 /* IQTitleBarButtonItem.h */,
+			);
+			path = IQToolbar;
+			sourceTree = "<group>";
+		};
+		4921AC2D209B35B1001A0444 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				4921AC2E209B35B1001A0444 /* IQKeyboardManagerConstantsInternal.h */,
+				4921AC2F209B35B1001A0444 /* IQKeyboardManagerConstants.h */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		4921AC30209B35B1001A0444 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4921AC31209B35B1001A0444 /* IQKeyboardManager.bundle */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		4921AC35209B35B1001A0444 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				4921AC36209B35B1001A0444 /* IQNSArray+Sort.m */,
+				4921AC37209B35B1001A0444 /* IQUIWindow+Hierarchy.m */,
+				4921AC38209B35B1001A0444 /* IQUIViewController+Additions.h */,
+				4921AC39209B35B1001A0444 /* IQUITextFieldView+Additions.m */,
+				4921AC3A209B35B1001A0444 /* IQUIScrollView+Additions.m */,
+				4921AC3B209B35B1001A0444 /* IQUIView+Hierarchy.m */,
+				4921AC3C209B35B1001A0444 /* IQUIWindow+Hierarchy.h */,
+				4921AC3D209B35B1001A0444 /* IQNSArray+Sort.h */,
+				4921AC3E209B35B1001A0444 /* IQUIScrollView+Additions.h */,
+				4921AC3F209B35B1001A0444 /* IQUITextFieldView+Additions.h */,
+				4921AC40209B35B1001A0444 /* IQUIViewController+Additions.m */,
+				4921AC41209B35B1001A0444 /* IQUIView+Hierarchy.h */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		498D6823205A6578000491E7 = {
+			isa = PBXGroup;
+			children = (
+				498D682E205A6578000491E7 /* Volleyball */,
+				498D6847205A6578000491E7 /* VolleyballTests */,
+				498D6852205A6578000491E7 /* VolleyballUITests */,
+				498D682D205A6578000491E7 /* Products */,
+				2604F0F63809EFEAF26E3B17 /* Pods */,
+				D31232895B0A699C592F6978 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		498D682D205A6578000491E7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				498D682C205A6578000491E7 /* Volleyball.app */,
+				498D6844205A6578000491E7 /* VolleyballTests.xctest */,
+				498D684F205A6578000491E7 /* VolleyballUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		498D682E205A6578000491E7 /* Volleyball */ = {
+			isa = PBXGroup;
+			children = (
+				4904EBDC209DE2930020A0D4 /* thirdParts */,
+				49F5B2662096E45E0031C984 /* Models */,
+				49CC10342062761F00ADA5A4 /* Views */,
+				4904EBE1209DE2E00020A0D4 /* ViewControllers */,
+				4904EBE2209DE3530020A0D4 /* SupportingFiles */,
+				498D683D205A6578000491E7 /* Info.plist */,
+			);
+			path = Volleyball;
+			sourceTree = "<group>";
+		};
+		498D6847205A6578000491E7 /* VolleyballTests */ = {
+			isa = PBXGroup;
+			children = (
+				498D6848205A6578000491E7 /* VolleyballTests.m */,
+				498D684A205A6578000491E7 /* Info.plist */,
+			);
+			path = VolleyballTests;
+			sourceTree = "<group>";
+		};
+		498D6852205A6578000491E7 /* VolleyballUITests */ = {
+			isa = PBXGroup;
+			children = (
+				498D6853205A6578000491E7 /* VolleyballUITests.m */,
+				498D6855205A6578000491E7 /* Info.plist */,
+			);
+			path = VolleyballUITests;
+			sourceTree = "<group>";
+		};
+		49CC10342062761F00ADA5A4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				496778E92091CF280055FDCF /* D3View.h */,
+				496778E82091CF280055FDCF /* D3View.m */,
+				491E0459205FE4F900B40FDD /* Players.h */,
+				491E045A205FE4F900B40FDD /* Players.m */,
+				49CC10382062853E00ADA5A4 /* Court.h */,
+				49CC10392062853E00ADA5A4 /* Court.m */,
+				495D2EEB2076037B004685BF /* ChooseButton.h */,
+				495D2EEC2076037B004685BF /* ChooseButton.m */,
+				494CFB4A207B9B0D0092E5FA /* DoneButtonsView.h */,
+				494CFB4B207B9B0D0092E5FA /* DoneButtonsView.m */,
+				4982F937208DFDCB00522BBB /* ProcessTable.h */,
+				4982F938208DFDCB00522BBB /* ProcessTable.m */,
+				49D6F735209997B6002B3AF2 /* PlayersSetting.h */,
+				49D6F736209997B6002B3AF2 /* PlayersSetting.m */,
+				49EAB61920A71F2000DBA470 /* positionLabel.h */,
+				49EAB61A20A71F2000DBA470 /* positionLabel.m */,
+				490E320F20ABF4420086C902 /* ChangePlayerView.h */,
+				490E321020ABF4420086C902 /* ChangePlayerView.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		49D6F7212099951D002B3AF2 /* ZZNumberField */ = {
+			isa = PBXGroup;
+			children = (
+				49D6F7222099951D002B3AF2 /* NumberPadDeleteDown.png */,
+				49D6F7232099951D002B3AF2 /* ZZNumberField.m */,
+				49D6F7242099951D002B3AF2 /* NumberPadDeleteUp.png */,
+				49D6F7252099951D002B3AF2 /* NumberPadButtonDown.png */,
+				49D6F7262099951D002B3AF2 /* NumberPadDeleteDown@2x.png */,
+				49D6F7272099951D002B3AF2 /* ZZNumberField.h */,
+				49D6F7282099951D002B3AF2 /* NumberPadDeleteUp@2x.png */,
+				49D6F7292099951D002B3AF2 /* NumberPadButtonUp.png */,
+				49D6F72A2099951D002B3AF2 /* NumberPadButtonUp@2x.png */,
+				49D6F72B2099951D002B3AF2 /* NumberPadButtonDown@2x.png */,
+			);
+			path = ZZNumberField;
+			sourceTree = "<group>";
+		};
+		49F5B2662096E45E0031C984 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				49F5B2672096E4C50031C984 /* PlayerModel.h */,
+				49F5B2682096E4C50031C984 /* PlayerModel.m */,
+				49F5B26D2096EC9C0031C984 /* DuiLoss.h */,
+				49F5B26E2096EC9C0031C984 /* DuiLoss.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D31232895B0A699C592F6978 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				48902D1CBAB17B026BBB3EC5 /* libPods-Volleyball.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		498D682B205A6578000491E7 /* Volleyball */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 498D6858205A6578000491E7 /* Build configuration list for PBXNativeTarget "Volleyball" */;
+			buildPhases = (
+				637900554ACED9F472D9D019 /* [CP] Check Pods Manifest.lock */,
+				498D6828205A6578000491E7 /* Sources */,
+				498D6829205A6578000491E7 /* Frameworks */,
+				498D682A205A6578000491E7 /* Resources */,
+				E1842BF2889E4A2E69854133 /* [CP] Embed Pods Frameworks */,
+				FC64D24E744FE08A1907718B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Volleyball;
+			productName = Volleyball;
+			productReference = 498D682C205A6578000491E7 /* Volleyball.app */;
+			productType = "com.apple.product-type.application";
+		};
+		498D6843205A6578000491E7 /* VolleyballTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 498D685B205A6578000491E7 /* Build configuration list for PBXNativeTarget "VolleyballTests" */;
+			buildPhases = (
+				498D6840205A6578000491E7 /* Sources */,
+				498D6841205A6578000491E7 /* Frameworks */,
+				498D6842205A6578000491E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				498D6846205A6578000491E7 /* PBXTargetDependency */,
+			);
+			name = VolleyballTests;
+			productName = VolleyballTests;
+			productReference = 498D6844205A6578000491E7 /* VolleyballTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		498D684E205A6578000491E7 /* VolleyballUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 498D685E205A6578000491E7 /* Build configuration list for PBXNativeTarget "VolleyballUITests" */;
+			buildPhases = (
+				498D684B205A6578000491E7 /* Sources */,
+				498D684C205A6578000491E7 /* Frameworks */,
+				498D684D205A6578000491E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				498D6851205A6578000491E7 /* PBXTargetDependency */,
+			);
+			name = VolleyballUITests;
+			productName = VolleyballUITests;
+			productReference = 498D684F205A6578000491E7 /* VolleyballUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		498D6824205A6578000491E7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "张文轩";
+				TargetAttributes = {
+					498D682B205A6578000491E7 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					498D6843205A6578000491E7 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 498D682B205A6578000491E7;
+					};
+					498D684E205A6578000491E7 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 498D682B205A6578000491E7;
+					};
+				};
+			};
+			buildConfigurationList = 498D6827205A6578000491E7 /* Build configuration list for PBXProject "Volleyball" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 498D6823205A6578000491E7;
+			productRefGroup = 498D682D205A6578000491E7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				498D682B205A6578000491E7 /* Volleyball */,
+				498D6843205A6578000491E7 /* VolleyballTests */,
+				498D684E205A6578000491E7 /* VolleyballUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		498D682A205A6578000491E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				498D683C205A6578000491E7 /* LaunchScreen.storyboard in Resources */,
+				49D6F7342099951E002B3AF2 /* NumberPadButtonDown@2x.png in Resources */,
+				4921AC49209B35B1001A0444 /* IQKeyboardManager.bundle in Resources */,
+				49D6F72E2099951E002B3AF2 /* NumberPadDeleteUp.png in Resources */,
+				49D6F72F2099951E002B3AF2 /* NumberPadButtonDown.png in Resources */,
+				49D6F7312099951E002B3AF2 /* NumberPadDeleteUp@2x.png in Resources */,
+				49D6F7332099951E002B3AF2 /* NumberPadButtonUp@2x.png in Resources */,
+				498D6839205A6578000491E7 /* Assets.xcassets in Resources */,
+				498D6837205A6578000491E7 /* Main.storyboard in Resources */,
+				49D6F7302099951E002B3AF2 /* NumberPadDeleteDown@2x.png in Resources */,
+				49D6F72C2099951E002B3AF2 /* NumberPadDeleteDown.png in Resources */,
+				49D6F7322099951E002B3AF2 /* NumberPadButtonUp.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		498D6842205A6578000491E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		498D684D205A6578000491E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		637900554ACED9F472D9D019 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Volleyball-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E1842BF2889E4A2E69854133 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Volleyball/Pods-Volleyball-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FC64D24E744FE08A1907718B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Volleyball/Pods-Volleyball-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		498D6828205A6578000491E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				490C3B5520ADAFFD002AF73E /* HistoryVC.m in Sources */,
+				49EAB61B20A71F2000DBA470 /* positionLabel.m in Sources */,
+				4904EBDF209DE2C20020A0D4 /* YCPickerView.m in Sources */,
+				490E320E20AAF2720086C902 /* TerminalChangVC.m in Sources */,
+				4982F939208DFDCB00522BBB /* ProcessTable.m in Sources */,
+				4921AC51209B35B1001A0444 /* IQKeyboardReturnKeyHandler.m in Sources */,
+				495D2EED2076037B004685BF /* ChooseButton.m in Sources */,
+				490C3B5220ADA83A002AF73E /* HomePageVC.m in Sources */,
+				496778EA2091CF280055FDCF /* D3View.m in Sources */,
+				4921AC44209B35B1001A0444 /* IQToolbar.m in Sources */,
+				4921AC4F209B35B1001A0444 /* IQUIView+Hierarchy.m in Sources */,
+				491E045B205FE4F900B40FDD /* Players.m in Sources */,
+				498D6834205A6578000491E7 /* ScoringView.m in Sources */,
+				4921AC4D209B35B1001A0444 /* IQUITextFieldView+Additions.m in Sources */,
+				4960918020B2F14F00982EE8 /* HistoryDetailVC.m in Sources */,
+				490C3F3D20B3D50F0026BE2C /* RealTimeVC.m in Sources */,
+				4970A94A209888B3007E95FC /* OurPlayersSettingVC.m in Sources */,
+				490C3F4020B3DB650026BE2C /* SettingVC.m in Sources */,
+				494CFB4C207B9B0D0092E5FA /* DoneButtonsView.m in Sources */,
+				4921AC48209B35B1001A0444 /* IQPreviousNextView.m in Sources */,
+				4921AC46209B35B1001A0444 /* IQBarButtonItem.m in Sources */,
+				4921AC4B209B35B1001A0444 /* IQNSArray+Sort.m in Sources */,
+				49CC103A2062853E00ADA5A4 /* Court.m in Sources */,
+				498D683F205A6578000491E7 /* main.m in Sources */,
+				49D6F737209997B6002B3AF2 /* PlayersSetting.m in Sources */,
+				4921AC50209B35B1001A0444 /* IQUIViewController+Additions.m in Sources */,
+				4921AC45209B35B1001A0444 /* IQTitleBarButtonItem.m in Sources */,
+				4921AC4E209B35B1001A0444 /* IQUIScrollView+Additions.m in Sources */,
+				49F5B2692096E4C50031C984 /* PlayerModel.m in Sources */,
+				490E321120ABF4420086C902 /* ChangePlayerView.m in Sources */,
+				4921AC4A209B35B1001A0444 /* IQKeyboardManager.m in Sources */,
+				4921AC4C209B35B1001A0444 /* IQUIWindow+Hierarchy.m in Sources */,
+				498D6831205A6578000491E7 /* AppDelegate.m in Sources */,
+				49D6F72D2099951E002B3AF2 /* ZZNumberField.m in Sources */,
+				4921AC43209B35B1001A0444 /* IQTextView.m in Sources */,
+				4971A19020AD48FE003EA3EC /* DetailScoreVC.m in Sources */,
+				4921AC47209B35B1001A0444 /* IQUIView+IQKeyboardToolbar.m in Sources */,
+				49F5B26F2096EC9C0031C984 /* DuiLoss.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		498D6840205A6578000491E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				498D6849205A6578000491E7 /* VolleyballTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		498D684B205A6578000491E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				498D6854205A6578000491E7 /* VolleyballUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		498D6846205A6578000491E7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 498D682B205A6578000491E7 /* Volleyball */;
+			targetProxy = 498D6845205A6578000491E7 /* PBXContainerItemProxy */;
+		};
+		498D6851205A6578000491E7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 498D682B205A6578000491E7 /* Volleyball */;
+			targetProxy = 498D6850205A6578000491E7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		498D6835205A6578000491E7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				498D6836205A6578000491E7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		498D683A205A6578000491E7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				498D683B205A6578000491E7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		498D6856205A6578000491E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		498D6857205A6578000491E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		498D6859205A6578000491E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0883891A3F2473D63AE4E78 /* Pods-Volleyball.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F5C5U8HC7H;
+				INFOPLIST_FILE = Volleyball/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = itteam.zwx.volleyball;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		498D685A205A6578000491E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F818D1312123ADAE897CD5D /* Pods-Volleyball.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F5C5U8HC7H;
+				INFOPLIST_FILE = Volleyball/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = itteam.zwx.volleyball;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		498D685C205A6578000491E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4ZPEDND434;
+				INFOPLIST_FILE = VolleyballTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zwx.VolleyballTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Volleyball.app/Volleyball";
+			};
+			name = Debug;
+		};
+		498D685D205A6578000491E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4ZPEDND434;
+				INFOPLIST_FILE = VolleyballTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zwx.VolleyballTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Volleyball.app/Volleyball";
+			};
+			name = Release;
+		};
+		498D685F205A6578000491E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4ZPEDND434;
+				INFOPLIST_FILE = VolleyballUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zwx.VolleyballUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Volleyball;
+			};
+			name = Debug;
+		};
+		498D6860205A6578000491E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4ZPEDND434;
+				INFOPLIST_FILE = VolleyballUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zwx.VolleyballUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Volleyball;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		498D6827205A6578000491E7 /* Build configuration list for PBXProject "Volleyball" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				498D6856205A6578000491E7 /* Debug */,
+				498D6857205A6578000491E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		498D6858205A6578000491E7 /* Build configuration list for PBXNativeTarget "Volleyball" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				498D6859205A6578000491E7 /* Debug */,
+				498D685A205A6578000491E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		498D685B205A6578000491E7 /* Build configuration list for PBXNativeTarget "VolleyballTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				498D685C205A6578000491E7 /* Debug */,
+				498D685D205A6578000491E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		498D685E205A6578000491E7 /* Build configuration list for PBXNativeTarget "VolleyballUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				498D685F205A6578000491E7 /* Debug */,
+				498D6860205A6578000491E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 498D6824205A6578000491E7 /* Project object */;
+}
